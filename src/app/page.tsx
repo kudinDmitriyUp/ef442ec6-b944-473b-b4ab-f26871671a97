@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -74,19 +74,19 @@ export default function LandingPage() {
           tag="Process"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Strategy & Research",
               description: "We analyze your target audience, competitors, and campaign goals to develop a comprehensive content strategy that maximizes impact.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765795715818-6l69wk6z.jpg"
             },
             {
-              id: "2",
+              id: 2,
               title: "Content Creation",
               description: "Our skilled creators produce authentic, high-quality UGC that captures genuine customer perspectives and brand values.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765795716616-wstei706.jpg"
             },
             {
-              id: "3",
+              id: 3,
               title: "Optimization & Delivery",
               description: "We optimize content for each platform, manage revisions, and deliver everything you need to launch your campaign successfully.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765795717433-68aw55tw.jpg"
